@@ -5,18 +5,19 @@ using namespace std;
 #define ll long long
 
 int main(){
-    ll ans = 0;
-    ll n, m, k, t;
+    int ans = 0;
+    int n, m;
+    ll k, t;
     cin >> n >> m >> k;
 
     vector<ll> apartments, applicants;
 
-    for(ll i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){
         cin >> t;
         applicants.push_back(t);
     }
 
-    for(ll i = 0; i < m; i++){
+    for(int i = 0; i < m; i++){
         cin >> t;
         apartments.push_back(t);
     }
